@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .primary-bg{
-    background-color: rgb(82, 163, 136);
+    background-color: rgb(80, 147, 125);
 }
 .primary-text{
     color: rgb(255, 255, 255);
 }
 .secondary-text{
-    color: rgb(82, 163, 136);
+    color: rgb(80, 147, 125);
 }
