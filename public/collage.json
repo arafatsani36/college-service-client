@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "ranking": 1,
+      "image_url": "https://i.ibb.co/txwFKCT/1clg.webp",
+      "college_name": "Dhaka College, Dhaka",
+      "admission_dates": "Fall semester - Applications open from December 1st to February 15th",
+      "events": ["Harmony Fest", "Science and Technology Expo", "Literary Symposium"],
+      "research_history": "Pioneering research in Environmental Sciences and Renewable Energy",
+      "sports": ["Basketball", "Soccer", "Tennis", "Swimming"],
+      "admission_process": "Online application, entrance exam, and interview",
+      "events_details": {
+        "Harmony Fest": "Music, dance, and drama performances by students and renowned artists.",
+        "Science and Technology Expo": "Showcasing innovative projects by students and faculty."
+      },
+      "research_works": "Notable research on sustainable urban development and climate change adaptation.",
+      "sports_categories": ["Intramural", "Intercollegiate"]
+    },
+
+    {
+      "id": 2,
+      "ranking": 2,
+      "image_url": "https://i.ibb.co/KcnHBYk/2clg.jpg",
+      "college_name": "Govt. Titumir College, Dhaka.",
+      "admission_dates": "Spring semester - Applications open from September 1st to November 30th",
+      "events": ["Tech Summit", "Cultural Extravaganza", "Entrepreneurship Week"],
+      "research_history": "Pioneered breakthroughs in Artificial Intelligence and Robotics",
+      "sports": ["Cricket", "Badminton", "Volleyball", "Table Tennis"],
+      "admission_process": "Merit-based selection through academic records and entrance exam scores",
+      "events_details": {
+        "Tech Summit": "Showcasing the latest advancements in technology and research.",
+        "Cultural Extravaganza": "Celebrating diverse cultures through dance, music, and food.",
+        "Entrepreneurship Week": "Promoting entrepreneurial spirit with workshops and seminars."
+      },
+      "research_works": "Leading research in AI applications and autonomous systems.",
+      "sports_categories": ["Intramural", "Intercollegiate"]
+    },
+    {
+        "id": 3,
+        "ranking": 15,
+        "image_url": "https://i.ibb.co/mGbN3LM/3clg.jpg",
+        "college_name": " Govt. Shaheed Suhrawardi College, Dhaka.",
+        "admission_dates": "Summer semester - Applications open from March 1st to May 31st",
+        "events": ["Artistic Expressions", "Literary Week", "Cultural Carnival"],
+        "research_history": "Celebrated for contributions to Fine Arts and Literature",
+        "sports": ["Painting", "Photography", "Creative Writing", "Sculpture"],
+        "admission_process": "Portfolio assessment and personal interview",
+        "events_details": {
+          "Artistic Expressions": "Exhibition of student artwork in various media.",
+          "Literary Week": "Readings, poetry slams, and book discussions.",
+          "Cultural Carnival": "Showcasing diverse cultural traditions through performances and cuisines."
+        },
+        "research_works": "Notable achievements in promoting local art and preserving heritage.",
+        "sports_categories": ["Intramural", "Intercollegiate"]
+      }   
+  ]
