@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layouts/Main";
-import CollageInfo from "../Components/CollageInfo/CollageInfo";
+import Home from "../Components/Home/Home";
 
 const router = createBrowserRouter([
     {
@@ -9,8 +9,9 @@ const router = createBrowserRouter([
         children:[
             {
                 path: "/",
-                element:<CollageInfo></CollageInfo>,
-            }
+                element:<Home></Home>,
+            },
+            
         ]
 
     }
