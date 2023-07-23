@@ -13,68 +13,67 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 const CollegeGraduateGroup = () => {
     return (
         <div>
             <h2 className="text-lg text-center mt-5 font-semibold">College Graduate's Group</h2>
 
-        <div className="max-w-7xl mx-auto my-10">
+        <div className="max-w-7xl mx-auto my-5">
+
         <Swiper
-            slidesPerView={1}
-            spaceBetween={10}
-            pagination={{
-            clickable: true,
-            }}
-            breakpoints={{
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-            },
-            1024: {
-                slidesPerView: 5,
-                spaceBetween: 50,
-            },
-            }}
-            modules={[Pagination]}
-            className="mySwiper"
-        >
-            <SwiperSlide>
-                <img src={fast} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={secend} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={threed} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={four} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={five} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={six} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={seven} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={eight} alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img src={nine} alt="" />
-            </SwiperSlide>
-        </Swiper>
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+        <img className=" w-1/2" src={fast} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={secend} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={threed} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={four} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={five} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={six} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={seven} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={eight} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+        <img className=" w-1/2" src={nine} alt="" />
+        </SwiperSlide>
+      </Swiper>
+
+
+
+
         </div>
         </div>
     );

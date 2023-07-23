@@ -7,10 +7,9 @@ const CollageInfo = () => {
         fetch('collage.json')
         .then(res => res.json())
         .then(data => setCollageInfo(data))
-    },[])
+    },[collageInfo])
 
     const topData = collageInfo.filter(item => item.ranking <= 3);
-    console.log(topData)
 
     return (
         <div>
